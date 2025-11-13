@@ -31,8 +31,8 @@ To develop a modular and secure E-commerce REST API covering:
 
 ```bash
 
-git clone <your_repo_url>
-cd mini-ecommerce-api
+git clone https://github.com/Sonaansari/Mini_Eccommerce.git
+cd Mini_Eccommerce
 composer install
 cp .env.example .env
 php artisan key:generate

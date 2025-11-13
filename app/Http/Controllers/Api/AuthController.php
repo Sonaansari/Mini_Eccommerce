@@ -72,14 +72,5 @@ class AuthController extends Controller
     }
 
 
-    public function logoutAll(Request $request)
-    {
-        $request->user()->tokens()->delete();
-
-        return response()->json([
-            'status'  => true,
-            'message' => 'Logged out from all devices',
-            'data'    => (object)[],
-        ]);
-    }
+    
 }
